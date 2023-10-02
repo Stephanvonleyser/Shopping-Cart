@@ -1,9 +1,9 @@
 MIT License
 
-Modifications by:
+Modifications:
 Copyright (c) 2023 Stephan von Leyser
 
-Initial files by:
+Original Work:
 Copyright (c) 2020 John Williams
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
