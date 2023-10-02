@@ -180,7 +180,13 @@ const Products = (props) => {
   };
 
   // TODO: implement the restockProducts function
-  const restockProducts = (url) => {};
+  const restockProducts = (url) => {
+    doFetch(url);
+    let newItems = data.data.map(product => product.attributes);
+    setItems([...items, ...newItems]);
+    console.log(`Restocking Data ${JSON.stringify(data)}`);
+    console.log(`Restocking new items ${JSON.stringify(newItems)}`);
+  };
 
   return (
     <div className="container">
